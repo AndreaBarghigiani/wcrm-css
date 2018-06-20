@@ -302,7 +302,7 @@ a.more-link.disabled:hover {
 
 .page .navigation-top .wrap:before,
 .single .navigation-top .wrap:before {
-  background: url("https://2017.rome.wordcamp.org/files/2017/09/logo-inline-wcrome.png")
+  background: url("https://2018.rome.wordcamp.org/files/2018/06/LOGO-ridotto-yellow-white-WCRome2017-.png")
     no-repeat left center;
   background-size: contain;
   content: " ";
@@ -310,7 +310,7 @@ a.more-link.disabled:hover {
   top: 0;
   z-index: 5;
   min-height: 75px;
-  width: 300px;
+  width: 100px;
 }
 
 .page:not(.home) .navigation-top .wrap:before,
