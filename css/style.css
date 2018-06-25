@@ -260,8 +260,16 @@ a.more-link.disabled:hover {
   margin-bottom: 0;
 }
 
-.home a.more-link.cta {
+.home a.more-link.cta,
+.home a.more-link{
   background-color: #a42840;
+}
+.home a.more-link.cta:hover,
+.home a.more-link:hover{
+  background-color: #f9b90e;
+  color: #a42840;
+}
+.home a.more-link.cta { 
   font-size: 16px;
   font-weight: 700;
   padding: 14px 20px;
@@ -269,13 +277,19 @@ a.more-link.disabled:hover {
 }
 
 .home a.more-link.cta:hover {
-  background-color: #f9b90e;
-  color: #a42840;
   border-radius: 6px;
 }
 
 .twentyseventeen-front-page.page-one-column .entry-header {
   margin-bottom: 30px;
+}
+
+/* parallasse home */
+.background-fixed .panel-image:before, .background-fixed .panel-image:after, .panel-content{
+  background: #333;
+}
+.panel-content, .panel-content .entry-title, .panel-content a{
+  color: #fff;
 }
 
 /* Pagina Singola */
