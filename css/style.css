@@ -251,6 +251,11 @@ a.more-link.disabled:hover {
   background-color: #c62947;
 }
 
+/* fix for footer spagination */
+.site-content-contain{
+  overflow: hidden;
+}
+
 /* Homepage */
 .home .entry-content .lang {
   display: none;
@@ -259,7 +264,6 @@ a.more-link.disabled:hover {
 .home .entry-content p:first-of-type {
   margin-bottom: 0;
 }
-
 .home a.more-link.cta,
 .home a.more-link{
   background-color: #a42840;
@@ -283,7 +287,6 @@ a.more-link.disabled:hover {
 .twentyseventeen-front-page.page-one-column .entry-header {
   margin-bottom: 30px;
 }
-
 /* parallasse home */
 .background-fixed .panel-image:before, .background-fixed .panel-image:after, .panel-content{
   background: #333;
@@ -744,7 +747,8 @@ table.wcpt-schedule tr:nth-of-type(2n) {
   .js .menu-toggle {
     height: auto;
     float: none;
-    margin: 3px auto;
+    padding: 17px 14px;
+    margin: 0 auto;
   }
 
   #tix-attendees .tix-columns-3 li {
