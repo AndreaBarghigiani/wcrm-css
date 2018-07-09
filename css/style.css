@@ -803,6 +803,9 @@ table.wcpt-schedule tr:nth-of-type(2n) {
 	.custom-header .site-branding {
 		padding: 7em 0;
 	}
+	.navigation-top{
+		padding-top: 1em;
+	}
 }
 @media screen and (max-width: 850px) {
 	.has-header-image .custom-header-media img,
@@ -826,6 +829,9 @@ table.wcpt-schedule tr:nth-of-type(2n) {
 	.custom-header .site-branding {
 		padding: 1em 0;
 	}
+	.navigation-top{
+		padding: .5em 0;
+	}
 }
 @media screen and (max-width: 640px) {
 	p.ita::before,
@@ -833,7 +839,9 @@ table.wcpt-schedule tr:nth-of-type(2n) {
 		position: static;
 		left: auto;
 	}
-
+	.navigation-top{
+		padding: 1em 0 0;
+	}
 	.custom-header {
 		display: none;
 	}
